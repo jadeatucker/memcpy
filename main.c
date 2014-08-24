@@ -10,7 +10,7 @@ int main(void) {
   char str1[] = "Hello world!";
   char str2[13];
 
-  _memcpy(str2, &str1, 13);
+  _memcpy(str2, str1, 13);
 
   printf("%s\n", str2);
 
